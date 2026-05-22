@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "molesthack-loader",
+  "version": "1.0.0",
+  "name": "Molesthack Loader",
+  "description": "cracked by itsmahir",
+  "authors": ["itsmahir"],
+  "contact": {},
+  "environment": "client",
+  "entrypoints": {
+    "client": ["org.itsmahir.crack.LoaderMod"]
+  },
+  "mixins": [
+    "loader.mixins.json"
+  ],
+  "accessWidener": "loader.accesswidener",
+  "depends": {
+    "java": ">=21",
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "molesthack": "*"
+  }
+}

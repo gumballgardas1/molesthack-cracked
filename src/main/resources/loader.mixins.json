@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.itsmahir.crack.mixin",
+  "refmap": "loader-refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AuthManagerMixin",
+    "BuildExpiryMixin",
+    "HUDModuleMixin",
+    "RichPresenceModuleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
